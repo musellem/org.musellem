@@ -1,0 +1,156 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   font-family: "Century Gothic"; 
+   background-image: url(../images/appart.jpeg);
+   background-size: cover;
+   color: white;
+}
+
+.icon-globe{
+    color:white;
+    font-size: 40px;
+}
+header{
+    display: flex;
+    background-color: rgb(8, 94, 85);
+    opacity: 0.7;
+    color: white;
+    
+}
+header .icon-globe,span{
+    line-height: 50px;
+    padding-left: 30px;
+}
+header span{
+    font-weight: bold;
+    font-size: 22px;
+}
+nav{
+    flex: 2;
+    line-height: 50px;
+    text-align:right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    display: inline;
+    position: relative;
+    right: 5%;
+    margin: 10px;
+}
+nav ul li:hover,a:hover{
+    color: orangered;
+}
+.box {
+   padding: 50px; 
+   text-align: center;
+}
+.box h3{
+    padding: 25px;
+    text-decoration: underline;
+}
+.box p{
+    color:wheat;
+    font-weight: bold;
+    padding: 20px;
+}
+.titre {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+}
+
+.loc{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.map, .call{
+    text-align: center;
+    flex: 2;
+}
+.call button{
+    background: #BA0046;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border:2px white solid;
+}
+.call a{
+    font-family: 'Century Gothic';
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.call button:hover{
+    background-color: greenyellow;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Style For Map */
+.map button{
+    background: #BA0046;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border:2px white solid;
+}
+.map a{
+    font-family: 'Century Gothic';
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.map button:hover{
+    background-color: greenyellow;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+img{
+    position:relative; left:135px;
+
+} 
+ footer{
+     background-color:black;
+     display: flex;
+ }
+.row-1{
+    flex: 1;
+}
+.row-2{
+   flex: 1; 
+}
+.row-3{
+   flex: 1; 
+}
+footer .row-3 .Icon ul li{
+    display: inline-block;
+    padding: 4px;
+}
+footer .row-3 .Icon ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+footer .row-3 .Icon ul li a:hover{
+    color: orangered;
+}
+footer .row-2 .address ul li{
+    display: block;
+    padding: 10px;
+} 
+footer{
+    padding: 10px;
+    line-height: 50px;
+}
