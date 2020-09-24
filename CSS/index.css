@@ -135,6 +135,56 @@ img{
 .row-3{
    flex: 1; 
 }
+
+section form{
+    width: 80%;
+    margin: auto;
+    background-color: grey;
+    padding: 30px;
+    margin-bottom: 50px;
+    fill-opacity: 0.5;
+}
+section form div{
+    margin: 30px;
+    display: flex;
+}
+section form div label{
+    flex: 1;
+}
+section form div input,textarea {
+    flex: 3;
+}
+section form div  textarea{
+    height: 200px;
+}
+section form div input,textarea{
+    /* height: 35px; */
+    border-radius: 5px;
+    border: 1px solid lightseagreen;
+    color: black;
+    background: lightgray;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    padding: 15px;
+}
+section form .button,button{
+    padding: 20px;
+    background: red;
+    width: 45%;
+    margin: auto;
+    border-radius: 50px;
+}
+/* section form .button button{
+    margin: auto;
+    background: transparent;
+    border: 0px ;
+    color: blanchedalmond;
+    line-height:bold;
+    font-family: 'Century Gothic';
+    font-size: 22px;
+} */
+
+/* Footer Style */
 footer .row-3 .Icon ul li{
     display: inline-block;
     padding: 4px;
